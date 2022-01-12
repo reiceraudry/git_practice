@@ -1,0 +1,1 @@
+My first solo, off-platform project from Codecademy.com
