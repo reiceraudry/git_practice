@@ -1,10 +1,10 @@
 let beVerbs = ['is', "isn't"]
-let intransientVerbs = ['goes', 'runs', 'walks', 'listens to', 'slaps']
-let transientVerbs = ['eats', 'licks', 'punches']
-let subjects = ['Reice', 'Jace', 'Jordan', 'Katie', 'Curtis', 'James', 'Dennis']
-let nicePreps = ['to the store', 'to the bar', 'down the street']
-let niceAdjs = ['cute', 'nice', 'beautiful']
-let meanAdjs = ['crazy', 'mean', 'dumb']
+let intransientVerbs = ['goes', 'runs', 'walks', 'drives', 'jaunts', 'flies', 'shuffles', 'scoots']
+let transientVerbs = ['eats', 'licks', 'punches', 'hugs', 'loves', 'hates']
+let subjects = ['Reice', 'Jace', 'Jordan', 'Katie', 'Curtis', 'James', 'Dennis', 'Kim']
+let nicePreps = ['to the store', 'to the bar', 'down the street', 'home', 'in heels', 'in bed', 'around the world', 'on a boat']
+let niceAdjs = ['cute', 'nice', 'beautiful', 'smart', 'sexy', 'fun', 'talented', 'inspiring', 'wonderful', 'sober']
+let meanAdjs = ['crazy', 'mean', 'dumb', 'silly', 'old', 'cheugy', 'crass', 'an idiot', 'drunk', 'tipsy', 'wasted', 'dizzy', 'stinky']
 
 //console.log(`${subjects[0]} ${intransientVerbs[0]} ${nicePreps[0]}`)
 //console.log(`${subjects[1]} ${beVerbs[0]} ${niceAdjs[2]}`)
@@ -27,6 +27,12 @@ const makeSentence = () => {
     }
 };
 
+console.log(makeSentence())
+console.log(makeSentence())
+console.log(makeSentence())
+console.log(makeSentence())
+console.log(makeSentence())
+console.log(makeSentence())
 console.log(makeSentence())
 console.log(makeSentence())
 console.log(makeSentence())
